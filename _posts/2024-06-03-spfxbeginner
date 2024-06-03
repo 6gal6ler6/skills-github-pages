@@ -1,0 +1,65 @@
+---
+title: "Getting Started with SharePoint Framework (SPFx)"
+date: 2024-06-03
+---
+
+# Getting Started with SharePoint Framework (SPFx)
+
+The SharePoint Framework (SPFx) is a page and web part model that provides full support for client-side SharePoint development. It allows developers to use modern web technologies and tools to build productive experiences and apps within SharePoint.
+
+## Key Features of SPFx
+
+- **Client-Side Development:** SPFx allows for the development of client-side web parts using JavaScript frameworks like React, Angular, and Vue.js.
+- **Integration with Microsoft Graph:** SPFx seamlessly integrates with Microsoft Graph, providing access to a wide range of data and services.
+- **Responsive Design:** Web parts built with SPFx are responsive and can adapt to different screen sizes and devices.
+- **Open Source Toolchain:** Developers can use open-source tools such as Node.js, npm, and Gulp to streamline the development process.
+
+## Getting Started
+
+### Prerequisites
+
+Before getting started with SPFx, make sure you have the following installed:
+
+- **Node.js**: SPFx requires Node.js for building and running web parts.
+- **Yeoman**: A scaffolding tool that helps generate the initial project structure.
+- **Gulp**: A task runner that automates tasks such as building and deploying the project.
+
+### Setting Up Your Environment
+
+1. **Install Node.js:** Download and install Node.js from [nodejs.org](https://nodejs.org/).
+2. **Install Yeoman and Gulp:**
+   ```bash
+   npm install -g yo gulp
+   ```
+3. Install the SharePoint Generator:
+```bash
+npm install -g @microsoft/generator-sharepoint
+```
+
+## Creating Your First SPFx Web Part
+
+### Create a New Project Directory:
+
+``` bash
+mkdir spfx-hello-world
+cd spfx-hello-world
+```
+### Generate a New SPFx Web Part:
+
+```bash
+yo @microsoft/sharepoint
+```
+
+Follow the prompts to configure your new web part project.
+
+### Build and Run Your Web Part:
+
+```bash
+gulp serve
+```
+>This command will build your project and start a local server where you can test your web part.
+
+## Conclusion
+The SharePoint Framework is a powerful tool for developing modern and responsive web parts in SharePoint. By leveraging familiar web development tools and frameworks, developers can create rich and interactive experiences for SharePoint users.
+
+!Stay tuned for more tutorials and tips on SPFx and other SharePoint development topics!
